@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Loiza | Coquette Elegant</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom, #fff1f7, #f9e0ec);
+      color: #4a3f46;
+      padding-bottom: 60px;
+    }
+
+    nav {
+      background-color: #f4c2c2;
+      padding: 15px 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      color: #fff;
+      font-style: italic;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 18px;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+      color: #6d3e5e;
+      transform: scale(1.1);
+    }
+
+    header {
+      text-align: center;
+      margin: 50px 20px 30px;
+      animation: fadeIn 2s ease;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #f4c2c2;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      background-color: #fff;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #d06d87;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    section {
+      margin: 30px 20px;
+      background: rgba(255, 255, 255, 0.94);
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #f8c6da;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+      animation: slideUp 1.2s ease;
+    }
+
+    h2 {
+      color: #bd5d7a;
+      margin-bottom: 10px;
+      font-family: 'Playfair Display', serif;
+      border-left: 4px solid #f4c2c2;
+      padding-left: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f4c2c2;
+      color: white;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        background-color: #fddbe0;
+        width: 100%;
+        text-align: center;
+        display: none;
+      }
+
+      nav:hover .nav-links {
+        display: flex;
+      }
+
+      .profile-pic {
+        width: 130px;
+        height: 130px;
+      }
+
+      header, section {
+        margin: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Loiza 🌸</div>
+    <ul class="nav-links">
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#hobi">Hobi</a></li>
+      <li><a href="#cita-cita">Cita-Cita</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+            <li><a href="#mapel favorite">mapel favorite</a></li>
+             <li><a href="#lagu favorite">lagu favorite</a></li>
+
+    </ul>
+  </nav>
+
+  <header>
+    <img src="loiza.jpg" class="profile-pic" />
+    <h1>Loiza Yumnakyla Sarchia</h1>
+    <p>🌷 SMKN 7 BATAM - Teknik Jaringan Akses Telekomunikasi 🌷</p>
+  </header>
+<section id="tentang">
+    <h2>🦋Tentang Saya❕</h2>
+    <p>Saya adalah siswi di SMKN 7 Batam dan mengambil jurusan Teknik Jaringan Akses Telekomunikasi. Saya menyukai dunia teknologi, tapi tetap mencintai estetika dan keindahan. Saya percaya bahwa kekuatan perempuan bisa bersinar di mana saja 💼✨.</p>
+    <p>Saya juga menyukai warna-warna yang indah dan elegan — seperti pastel, rose gold, dan pink lembut. Warna bagi saya bukan hanya estetika, tetapi cara mengekspresikan perasaan dan karakter diri 🎨💖.</p>
+  </section>
+
+  <section id="hobi">
+    <h2>🤍Hobi❕</h2>
+    <p>Saya gemar bernyanyi 🎤 dan memasak 🍰 — dua hal yang membuat hati saya bahagia dan penuh warna. Bagi saya, seni dan rasa adalah bahasa cinta.</p>
+  </section>
+
+  <section id="cita-cita">
+    <h2>👩🏻‍💼Cita-Cita❕</h2>
+    <p>Saya bercita-cita menjadi seorang <strong>konsultan bisnis</strong> yang sukses. Saya ingin membantu banyak orang membangun usahanya dengan strategi yang tepat, kreatif, dan beretika. Dengan kombinasi antara ilmu teknologi dan kepekaan terhadap pasar, saya percaya mimpi ini bisa saya wujudkan 💼✨.</p>
+  </section>
+
+  <section id="mapel favorite">
+    <h2>📚mapel favorite ❕</h2>
+    <p>Bahasa inggris dan matematika</p>
+  </section>
+  
+    <section id="lagu favorite">
+    <h2>🎧lagu favorite ❕</h2>
+    <p>about you dan brooklyn baby</p>
+  </section>
+
+
+  <section id="kontak">
+    <h2>☎️Kontak❕</h2>
+    <p>📞 085183114303</p>
+    <p>📧 loizaayyumnasarchia@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>✨ Dibuat oleh Loiza Yumnakyla Sarchia dengan sentuhan cinta & keanggunan ©️ 2025 ✨</p>
+  </footer>
+
+</body>
+</html>
